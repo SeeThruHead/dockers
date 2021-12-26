@@ -2,6 +2,10 @@
   "name": "seethruhead-sabnzbdscriptrunner",
   "version": "1.0.0",
   "license": "MIT",
+  "scripts": {
+    "build": "docker build -t seethruhead/sabnzbdscriptrunner:latest .",
+    "push": "docker push seethruhead/sabnzbdscriptrunner:latest"
+  },
   "dependencies": {
     "@types/node": "^17.0.5",
     "sabnzbd-api": "^1.3.2",
